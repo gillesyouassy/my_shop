@@ -1,0 +1,13 @@
+<odoo>
+    <templete id="custom_assets" inherit_id="web.assets_frontend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" href="/my_shop/static/css/animate.css"/>
+            <link rel="stylesheet" href="/my_shop/static/css/bootstrap.min.css"/>
+            <link rel="stylesheet" href="/my_shop/static/css/font-awesome.min.css"/>
+            <link rel="stylesheet" href="/my_shop/static/css/main.css"/>
+            <link rel="stylesheet" href="/my_shop/static/css/prettyPhoto.css"/>
+            <link rel="stylesheet" href="/my_shop/static/css/price-range.css"/>
+            <link rel="stylesheet" href="/my_shop/static/css/responsive.css"/>
+        </xpath>
+    </templete>
+</odoo>

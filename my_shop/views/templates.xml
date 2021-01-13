@@ -1,0 +1,11 @@
+<odoo>
+    <template id="custom_inherited_home" inherit_id="website.homepage" name="YGA BEST FAHIONS" active="True" customize_show="True">
+        <data inherit_id="website.homepage">
+            <xpath expr="//div[@id='wrap']" position="replace">
+                <div>
+                    <h1>MY SHOP</h1>
+                </div>
+            </xpath>
+        </data>
+    </template>
+</odoo>
